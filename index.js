@@ -72,7 +72,7 @@ const finalConfig = {
     listen: "0.0.0.0",
     listen_port: PORT,
     users: [{ uuid: UUID }],
-    transport: { type: "ws", path: "/vless-ws" }
+    transport: { type: "http", path: "/" }
   }],
   outbounds: [{ type: "direct", tag: "direct" }]
 };
